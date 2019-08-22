@@ -97,11 +97,12 @@ exports.decorateConfig = config => {
       }
       .tab_tab {
         color: ${foregroundColor} !important;
+		background-color: ${nord.nord1};
         transition: color 400ms ease, background 400ms ease;
       }
       .tab_tab.tab_active,
       .tab_tab:hover {
-        background-color: ${nord.nord1};
+        background-color: ${backgroundColor};
       }
       .splitpane_divider {
         background-color: rgba(67, 76, 94, 0.8) !important;
